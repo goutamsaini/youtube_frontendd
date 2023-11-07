@@ -1,0 +1,447 @@
+.youtube {
+    display: flex;
+    flex-direction: column;
+    width: 1150px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    justify-content: space-between;
+    height: 50px;
+    background-color: white;
+    
+}
+
+.body {
+    flex: 1;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.b1 {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    border: 5px;
+    margin: 1px;
+}
+
+.b2 {
+    width: 1000px;
+    border: 2px;
+    background-color: white;
+    margin: 1px;
+}
+
+.b11 {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.b12 {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.h1 {
+    background-color: rgb(198, 191, 191);
+    width: 50px;
+    text-align: center;
+    height: 30px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.h2 {
+    background-color: rgb(198, 191, 191);
+    width: 80px;
+    text-align: center;
+    height: 30px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.h3 {
+    background-color: rgb(198, 191, 191);
+    width: 90px;
+    text-align: center;
+    height: 30px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.h4 {
+    background-color: rgb(198, 191, 191);
+    width: 60px;
+    text-align: center;
+    height: 30px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.h5 {
+    background-color: rgb(198, 191, 191);
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.h6 {
+    background-color: rgb(117, 114, 114);
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.h7 {
+    background-color: rgb(198, 191, 191);
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.h8 {
+    background-color: rgb(198, 191, 191);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.h9 {
+    background-color: rgb(198, 191, 191);
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.c1 {
+    width: 350px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.c2 {
+    width: 350px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.c3 {
+    width: 350px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.c4 {
+    width: 350px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.c5 {
+    width: 350px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.c6 {
+    width: 350px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.threeline {
+    width: 20px;
+    margin: 20px;
+    position: absolute;
+}
+
+.logo-image {
+    width: 100px;
+    margin: 0 auto;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+.user-logo {
+    border-radius: 25px;
+    margin: 0 auto;
+    position: absolute;
+    width: 50px;
+}
+
+#search {
+    border-radius: 15px;
+    width: 400px;
+}
+
+.mic-image {
+    margin: 0 auto;
+    width: 28px;
+    position: absolute;
+    left: 810px;
+    top: 15px;
+}
+
+.homeicon {
+    width: 80px;
+    position: relative;
+    left: 25px;
+}
+
+.home {
+    font-size: medium;
+    position: relative;
+    top: 73px;
+    left: 43px;
+}
+
+.shortsicon {
+    width: 40px;
+    position: relative;
+    top: 20px;
+    left: 45px;
+}
+
+.shorts {
+    position: relative;
+    top: 87px;
+    left: -4px;
+    font-size: medium;
+    text-align: center;
+}
+
+.uploadvideo {
+    width: 28px;
+    position: absolute;
+    top: 15px;
+    left: 1080px;
+}
+
+.bellicon {
+    width: 30px;
+    position: absolute;
+    top: 13px;
+    left: 1030px;
+}
+
+.sub {
+    width: 30px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.subs {
+    font-size: medium;
+    position: relative;
+    top: 116px;
+    left: -3px;
+    text-align: center;
+}
+
+.lib {
+    width: 27px;
+    position: relative;
+    top: 90px;
+    left: 48px;
+}
+
+.you {
+    position: relative;
+    top: 156px;
+    left: -4px;
+    font-size: medium;
+    text-align: center;
+}
+
+.video1 {
+    border-radius: 10px;
+    height: 190px;
+    width: 320px;
+}
+
+.video2 {
+    border-radius: 10px;
+    height: 190px;
+    width: 320px;
+}
+
+.video3 {
+    border-radius: 10px;
+    height: 190px;
+    width: 320px;
+}
+
+.video4 {
+    border-radius: 10px;
+    height: 190px;
+    width: 320px;
+}
+
+.video5 {
+    border-radius: 10px;
+    height: 190px;
+    width: 320px;
+}
+
+.video6 {
+    border-radius: 10px;
+    height: 190px;
+    width: 320px;
+}
+
+.v1c {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.v2c {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.v3c {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.v4c {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.v5c {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.v6c {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.logov1 {
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+
+.logov2 {
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+
+.logov3 {
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+
+.logov4 {
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+
+.logov5 {
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+
+.logov6 {
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+
+.tital1 {
+    border-radius: 25px;
+    margin: 3px;
+    font-size: small
+}
+
+.tital2 {
+    border-radius: 25px;
+    margin: 3px;
+    font-size: small
+}
+
+.tital3 {
+    border-radius: 25px;
+    margin: 3px;
+    font-size: small
+}
+
+.tital4 {
+    border-radius: 25px;
+    margin: 3px;
+    font-size: small
+}
+
+.tital5 {
+    border-radius: 25px;
+    margin: 3px;
+    font-size: small
+}
+
+.tital6 {
+    border-radius: 25px;
+    margin: 3px;
+    font-size: small
+}

@@ -1,25 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import{ Routes,Route, BrowserRouter} from "react-router-dom";
 
+import HomePage from './components/HomePage';
+import Videoplay from './components/videoplay';
+<link rel="stylesheet" href="HomePade.css"></link>;
+<link rel="stylesheet" href="videoplay.css"></link>
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // <div className="App"><TableComponent></TableComponent></div>
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<HomePage/>}></Route>
+      <Route path="/video" element={<Videoplay/>}></Route>
+     
+    </Routes>
+  </BrowserRouter>
+  )
 }
 
 export default App;

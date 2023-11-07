@@ -1,0 +1,219 @@
+.kakasong {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    border-radius: 15px;
+
+}
+
+.body2 {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1150px;
+    height: 650px;
+}
+
+.body21 {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+
+}
+
+.song {
+
+    height: 400px;
+
+
+}
+
+.body2tital {
+    margin-top: 5px;
+
+    text-align: left;
+    height: 60px;
+}
+
+.body2logo {
+    display: flex;
+    flex-direction: row;
+
+    height: 40px;
+}
+
+.body2l {
+    width: 40px;
+
+
+
+}
+
+.body2cn {
+    width: 150px;
+
+    position: relative;
+    left: 10px;
+    text-align: left;
+
+}
+
+.body2sub {
+    width: 120px;
+    position: relative;
+    left: 40px;
+    background-color: black;
+    font-style: oblique;
+    font-size: 19px;
+    -webkit-text-fill-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 35px;
+}
+
+.body2like {
+    position: relative;
+    left: 100px;
+    width: 130px;
+
+
+}
+
+.body2likei {
+    width: 125px;
+    height: 37px;
+}
+
+.body2share {
+    position: relative;
+    left: 120px;
+    width: 90px;
+
+
+}
+
+.sharei {
+    width: 125px;
+    height: 35px;
+}
+
+.body2threedot {
+    width: 30px;
+
+    position: relative;
+    left: 135px;
+
+}
+
+.body2dis {
+    margin-top: 10px;
+    height: 100px;
+    text-align: left;
+
+}
+
+.body22 {
+    display: flex;
+    flex-direction: column;
+
+
+    overflow-y: scroll;
+    width: 400px;
+    height: 400px;
+
+}
+
+.smallvideo {
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    height: 450px;
+    border-radius: 20px;
+
+
+
+}
+
+
+.sv1 {
+    width: 180px;
+
+
+}
+
+.sv1aam {
+    width: 180px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.sv2 {
+    width: 180px;
+}
+
+.sv2cheak {
+    width: 180px;
+    height: 100px;
+    border-radius: 15px;
+
+}
+
+.sv3 {
+    width: 180px;
+
+
+}
+
+.sv3devil {
+    width: 180px;
+    height: 100px;
+    border-radius: 15px;
+
+}
+
+.sv4 {
+    width: 180px;
+
+
+}
+
+.sv4photo {
+    width: 180px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.sv5 {
+    width: 180px;
+}
+
+.sv5gabber {
+    width: 180px;
+    height: 100px;
+    border-radius: 15px;
+
+}
+
+.sv6 {
+    width: 180px;
+
+
+}
+
+.sv6dope {
+    width: 180px;
+    height: 100px;
+    border-radius: 15px;
+
+}
+
+.svt1 {
+    margin: 3px;
+    font-size: 15px;
+
+}
