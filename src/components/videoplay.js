@@ -21,43 +21,43 @@ import photo from './logo/photo.jpg'
 import axios from "axios";
 import { useParams } from "react-router-dom";
 
-function SuggestedVideo(props) {
-  const title = props.title;
-  const thumbnail = props.thumbnail;
-  const likes = props.likes;
-  const videoId = props.videoId;
-  const description = props.description;
+// function SuggestedVideo(props) {
+//   const title = props.title;
+//   const thumbnail = props.thumbnail;
+//   const likes = props.likes;
+//   const videoId = props.videoId;
+//   const description = props.description;
 
-  return (
-    <>
-      <div className="suggested-video">
-        <div className="suggestion-image">
-          <img src={thumbnail} width={"230px"} />
-        </div>
-        <div className="suggestion-content">
-          <div class="video-info">
-            <p class="video-sug-title">{title}</p>
-            <p class="margin-0 smaller-fontsize">T-Series</p>
-            <p class="margin-0 smaller-fontsize">230M views . 4 years ago</p>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-}
+//   return (
+//     <>
+//       <div className="suggested-video">
+//         <div className="suggestion-image">
+//           <img src={thumbnail} width={"230px"} />
+//         </div>
+//         <div className="suggestion-content">
+//           <div class="video-info">
+//             <p class="video-sug-title">{title}</p>
+//             <p class="margin-0 smaller-fontsize">T-Series</p>
+//             <p class="margin-0 smaller-fontsize">230M views . 4 years ago</p>
+//           </div>
+//         </div>
+//       </div>
+//     </>
+//   );
+// }
 const videoplay = () => {
-    const [videos, setVideos] = useState([]);
-    const params = useParams();
-    const id = params.id;
-    const fetchData = async () => {
-      const data = await axios.get("http://localhost:3000/video");
-      console.log(data.data);
-      setVideos(data.data);
-    };
+    // const [videos, setVideos] = useState([]);
+    // const params = useParams();
+    // const id = params.id;
+    // const fetchData = async () => {
+    //   const data = await axios.get("http://localhost:3000/video");
+    //   console.log(data.data);
+    //   setVideos(data.data);
+    // };
   
-    useEffect(() => {
-      fetchData();
-    }, []);
+    // useEffect(() => {
+    //   fetchData();
+    // }, []);
 
     return (
         <html>
@@ -94,7 +94,7 @@ const videoplay = () => {
                             </div>
                             <div class="body2dis">10 M views in 1 years agoKAKA - Suit (Full Video) - Kaka Katil haseena song - Kaka new song - Kaka all Song - kaka shape song .... more </div>
                         </div>
-                        <div className="suggestions">
+                        {/* <div className="suggestions">
                           {videos.map((video) => {
                             <SuggestedVideo
                                title={video.title}
@@ -104,7 +104,7 @@ const videoplay = () => {
                                description={video.description}
                             />;
                                })}
-                         </div>
+                         </div> */}
                         <div class="body22">
                             <div class="smallvideo">
                                 <div class="sv1"><a href="https://www.youtube.com/embed/muds1gFUTN8?si=xO3E6iN4yosjbQ65"><img src={aam} class="sv1aam"></img></a></div>

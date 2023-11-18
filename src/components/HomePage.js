@@ -24,16 +24,7 @@ import VideoComponent from "./VideoComponent";
 
 
 const HomePage = () => {
-    const [videos, setVideos] = useState([]);
-
-    const fetchData = async () => {
-      const data = await axios.get("http://localhost:3000/video");
-      setVideos(data.data);
-    };
   
-    useEffect(() => {
-      fetchData();
-    }, []);
    
      return (
         <html>
@@ -51,7 +42,6 @@ const HomePage = () => {
                         </div>
                         <div class="icon">
                             <img src={userlogo} class="user-logo">
-                                <button className="signInButton" >SignIn</button>
                             </img>
                             <img src={uploadvideo} class="uploadvideo" />
                             <img src={bellicon} class="bellicon"></img></div>
@@ -132,20 +122,7 @@ const HomePage = () => {
                                         <div><img src={tseries} class="logov6"></img></div>
                                         <div class="tital6"><b>Photo - Singga (Official Video) | Ft. Nikki Kaur | Latest Punjabi Song 2023 |</b><br></br>115 M views . 9 years ago</div>
                                     </div>
-                                    <div className="videos">
-                                      {videos.map((video) => {
-                                       return (
-                                         <VideoComponent
-                                           title={video.title}
-                                           thumbnail={video.thumbnail}
-                                           likes={video.likes}
-                                           videoId={video.videoId}
-                                           description={video.description}
-                                            />
-                                            );
-                                                 })}
-                                        <VideoComponent />
-                                    </div>
+                                    
                                 </div>
 
                             </div>
