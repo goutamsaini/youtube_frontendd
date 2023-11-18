@@ -1,7 +1,8 @@
 .youtube {
     display: flex;
     flex-direction: column;
-    width: 1150px;
+    height: 100vh;
+    width: 100vw;
 }
 
 .header {
