@@ -20,6 +20,8 @@ import photo from './logo/photo.jpg'
 import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
+import VideoComponent from "./VideoComponent";
+
 
 const HomePage = () => {
     const [videos, setVideos] = useState([]);
@@ -49,7 +51,7 @@ const HomePage = () => {
                         </div>
                         <div class="icon">
                             <img src={userlogo} class="user-logo">
-                                <button className="signInButton" onClick={onSignIn}>SignIn</button>
+                                <button className="signInButton" >SignIn</button>
                             </img>
                             <img src={uploadvideo} class="uploadvideo" />
                             <img src={bellicon} class="bellicon"></img></div>
@@ -130,7 +132,20 @@ const HomePage = () => {
                                         <div><img src={tseries} class="logov6"></img></div>
                                         <div class="tital6"><b>Photo - Singga (Official Video) | Ft. Nikki Kaur | Latest Punjabi Song 2023 |</b><br></br>115 M views . 9 years ago</div>
                                     </div>
-                                    <div></div>
+                                    <div className="videos">
+                                      {videos.map((video) => {
+                                       return (
+                                         <VideoComponent
+                                           title={video.title}
+                                           thumbnail={video.thumbnail}
+                                           likes={video.likes}
+                                           videoId={video.videoId}
+                                           description={video.description}
+                                            />
+                                            );
+                                                 })}
+                                        <VideoComponent />
+                                    </div>
                                 </div>
 
                             </div>
