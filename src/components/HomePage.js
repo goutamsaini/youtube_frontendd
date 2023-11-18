@@ -19,20 +19,21 @@ import gabber from './logo/gabber.jpg'
 import photo from './logo/photo.jpg'
 import { useState } from "react";
 import { useEffect } from "react";
+import axios from "axios";
 
 const HomePage = () => {
-    // const{number,setNumber} = useState
-    // const fetchData = async() => {
-    //     const data = await fetch("localhost:3000/video");
-    //     console.log(data);
+    const [videos, setVideos] = useState([]);
 
-    // };
-    // useEffect(()=>{
-    //     fetchData();
-
-    // })
-    
-    return (
+    const fetchData = async () => {
+      const data = await axios.get("http://localhost:3000/video");
+      setVideos(data.data);
+    };
+  
+    useEffect(() => {
+      fetchData();
+    }, []);
+   
+     return (
         <html>
             <body>
                 <div class="youtube">
@@ -47,7 +48,9 @@ const HomePage = () => {
                             <div class="s2"><img src={mic} alt="Image Description" class="mic-image"></img></div>
                         </div>
                         <div class="icon">
-                            <img src={userlogo} class="user-logo"></img>
+                            <img src={userlogo} class="user-logo">
+                                <button className="signInButton" onClick={onSignIn}>SignIn</button>
+                            </img>
                             <img src={uploadvideo} class="uploadvideo" />
                             <img src={bellicon} class="bellicon"></img></div>
                     </div>

@@ -217,3 +217,26 @@
     font-size: 15px;
 
 }
+.video-sug-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .suggested-video {
+    display: flex;
+    margin-top: 10px;
+    margin: 8px;
+  }
+  
+  .suggestion-image {
+    width: 60%;
+  }
+  
+  .suggestion-image > img {
+    border-radius: 3%;
+  }
+  .video-info > p {
+    margin-top: 2px;
+  }
+  .suggestions {
+    flex: 1;
+  }  
